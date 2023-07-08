@@ -173,3 +173,11 @@ main section {
     margin-top: 20px;
     color: #757575;
 }
+
+/* Resume section styles goes here */
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
