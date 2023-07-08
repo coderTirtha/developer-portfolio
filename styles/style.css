@@ -25,6 +25,23 @@ body {
     padding: 15px 25px;
 }
 
+.btn-primary-blank {
+    background-color: white;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 23px;
+    transition: .1s linear;
+}
+
+.btn-primary-blank:hover {
+    background-color: #FD6E0A;
+    color: white;
+}
+
 .section-title {
     color: #181818;
     text-align: center;
@@ -46,6 +63,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+    padding-top: 20px;
 }
 
 nav>ul {
@@ -72,9 +90,9 @@ nav a {
 /* Header Section Styles */
 header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
 }
 
 .banner {
@@ -82,6 +100,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 115vh;
 }
 
 .banner-content {
@@ -90,6 +109,7 @@ header {
 
 .banner .profile-pic {
     width: 500px;
+    transform: translateY(29px);
 }
 
 .banner-greeting {
