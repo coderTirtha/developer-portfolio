@@ -222,3 +222,12 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+/* Footer Styles goes here */
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    padding: 130px 200px;
+    background: #FFF8F3;
+}
